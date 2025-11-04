@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.App-header p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.status-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 2rem 0;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  min-width: 400px;
+}
+
+.status-card h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.status {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.status.connected {
+  background: rgba(76, 175, 80, 0.3);
+  color: #4CAF50;
+}
+
+.status.disconnected {
+  background: rgba(244, 67, 54, 0.3);
+  color: #f44336;
+}
+
+.status.loading {
+  background: rgba(255, 193, 7, 0.3);
+  color: #ffc107;
+}
+
+.message {
+  font-size: 1rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+}
+
+.test-button {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.test-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.test-button:active {
+  transform: translateY(0);
+}
+
+.modules-section {
+  margin-top: 3rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.modules-section h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.modules-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.module-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.module-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.module-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.module-card p {
+  margin: 0;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .App-header h1 {
+    font-size: 2rem;
+  }
+  
+  .status-card {
+    min-width: 300px;
+    padding: 1.5rem;
+  }
+  
+  .modules-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
