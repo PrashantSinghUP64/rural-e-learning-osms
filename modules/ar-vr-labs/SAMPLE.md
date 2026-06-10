@@ -1,3 +1,3 @@
 Module: AR/VR Labs (SAMPLE)
 
-A- demo placeholder.
+A-Frame demo placeholder.
