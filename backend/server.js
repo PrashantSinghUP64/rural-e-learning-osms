@@ -53,7 +53,7 @@ app.use('/api/ai', aiRoutes);
 
 app.get("/", (req, res) => res.json({ message: "API is running" }));
 
-const PORT = process.env.PORT || ;
+const PORT = process.env.PORT || 4000;
 server.listen(PORT, () => {
   console.log(`🚀 Backend server running on port ${PORT}`);
 });
