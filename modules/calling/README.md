@@ -1,6 +1,6 @@
 # calling
 
-Module: Calling (SAMPLE)
+Module: Calling ()
 
 See SAMPLE snippet for WebRTC audio sample.
 
