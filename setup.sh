@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Rural E-Learning Platform Setup Script
-echo "🚀 Setting  Rural E-Learning Platform..."
+echo "🚀 Setting up Rural E-Learning Platform..."
 
 # Check if Node.js is installed
 if ! command -v node &> /dev/null; then
