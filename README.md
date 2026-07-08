@@ -1,4 +1,4 @@
-# 🚀 Rural E-Learning Platform
+# 🚀 Rural E-Learning 
 
 A comprehensive offline-first e-learning platform designed specifically for rural communities, featuring multi-language support, adaptive learning, and innovative educational tools.
 
