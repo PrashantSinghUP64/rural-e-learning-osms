@@ -1,4 +1,4 @@
-@echo off
+@echo 
 echo 🚀 Setting up Rural E-Learning Platform...
 
 REM Check if Node.js is installed
